@@ -2,6 +2,8 @@
 
 Find a courier company from a passed in connote.
 
+[![Build Status](https://travis-ci.org/robzolkos/courier_finder.svg?branch=master)](https://travis-ci.org/robzolkos/courier_finder)
+
 Supported courier companies:
 
 - Australia Post
