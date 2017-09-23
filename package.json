@@ -1,10 +1,14 @@
 {
   "name": "courier_finder",
   "description": "Find a courier company from a passed in connote.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Rob Zolkos <rob@zolkos.com> ",
   "main": "index.js",
-  "keywords": ["couriers", "shipping", "dispatch"],
+  "keywords": [
+    "couriers",
+    "shipping",
+    "dispatch"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/robzolkos/courier_finder.git"
