@@ -7,6 +7,14 @@ function valid(connote) {
   if (typeof connote != "string") {
     return false;
   }
+
+  connote = connote.trim().toUpperCase();
+
+  // handle 14 character couriers please
+  if (connote.length === 14 && connote.indexOf("CP") === 0) {
+    return false;
+  }
+
   return [10, 14, 18, 21, 39].indexOf(connote.length) != -1;
 }
 

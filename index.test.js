@@ -3,10 +3,10 @@ const courier_finder = require("./index");
 describe("courier_finder", () => {
   describe("with a valid connote", () => {
     test("returns an object with courier name and tracking link", () => {
-      expect(courier_finder("CP0000E00000")).toEqual({
+      expect(courier_finder("CP0000E0000000")).toEqual({
         courier: "Couriers Please",
         tracking_link:
-          "https://www.couriersplease.com.au/Tools/Track?no=CP0000E00000"
+          "https://www.couriersplease.com.au/Tools/Track?no=CP0000E0000000"
       });
     });
   });
