@@ -1,7 +1,7 @@
 {
   "name": "courier_finder",
   "description": "Find a courier company from a passed in connote.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Rob Zolkos <rob@zolkos.com> ",
   "main": "index.js",
   "keywords": [
