@@ -15,7 +15,7 @@ function valid(connote) {
     return false;
   }
 
-  return [10, 14, 18, 21, 39].indexOf(connote.length) != -1;
+  return [10, 14, 18, 21, 39, 40].indexOf(connote.length) != -1;
 }
 
 module.exports = { courier_name, tracking_url, valid };
