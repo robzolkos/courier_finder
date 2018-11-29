@@ -9,6 +9,9 @@ describe("Australia Post", () => {
         expect(australia_post.valid("000000000000000000")).toBe(true); // 18
         expect(australia_post.valid("000000000000000000000")).toBe(true); // 21
         expect(
+          australia_post.valid("0199312650999998910001007263709006080997")
+        ).toBe(true); // 40
+        expect(
           australia_post.valid("000000000000000000000000000000000000000")
         ).toBe(true); // 39
       });
