@@ -7,7 +7,10 @@ function valid(connote) {
     return false;
   }
   connote = connote.trim().toUpperCase();
-  return connote.length === 14 && connote.indexOf("CP") === 0;
+  return (
+    (connote.length === 14 || connote.length === 15) &&
+    connote.indexOf("CP") === 0
+  );
 }
 
 module.exports = { courier_name, tracking_url, valid };
