@@ -6,6 +6,7 @@ describe("Australia Post", () => {
       test("returns true", () => {
         expect(australia_post.valid("0000000000")).toBe(true); // 10
         expect(australia_post.valid("00000000000000")).toBe(true); // 14
+        expect(australia_post.valid("R428015023000000")).toBe(true);
         expect(australia_post.valid("000000000000000000")).toBe(true); // 18
         expect(australia_post.valid("000000000000000000000")).toBe(true); // 21
         expect(
