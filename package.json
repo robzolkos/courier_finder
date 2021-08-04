@@ -21,6 +21,6 @@
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.8.0",
-    "tar": "^2.2.2"
+    "tar": "^4.4.15"
   }
 }
